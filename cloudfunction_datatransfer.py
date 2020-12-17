@@ -11,4 +11,4 @@ def runQuery (parent, requested_run_time):
     response = client.start_manual_transfer_runs(parent, requested_run_time=start_time)
     print(response)
     
-# do not forget to put google-cloud-bigquery-datatransfer>=0.1 in the requirements.txt
+# do not forget to put google-cloud-bigquery-datatransfer==1 in the requirements.txt
